@@ -4,15 +4,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #4a7f85;
 }
 canvas {
     border: 1px solid #000;
     display: block;
     margin: 0 auto;
-}
-
-div {
-    width: 100;
-    height: 100;
-    
 }
