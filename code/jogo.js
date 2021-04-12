@@ -408,7 +408,12 @@ window.addEventListener('click', function(){
         telaAtiva.click();
     }
 })
+window.addEventListener('keydown', function(evento){
+    if(evento.keyCode == 32){
+        telaAtiva.click();
+    }
 
+})
 
 mudaparatela(telas.inicio);
 loop();
