@@ -53,12 +53,12 @@ function criaFlappyBird(){
         altura: 24,
         x: 10,
         y: 50,
-        pulo: 5,
+        pulo: 4.5,
         pula() {
             flappyBird.velocidade = - flappyBird.pulo
             som_pulo.play();
         },
-        gravidade: 0.2,
+        gravidade: 0.21,
         velocidade: 0,
         atualiza() {
             if(fazColisao(flappyBird, globais.chao)){
@@ -187,7 +187,7 @@ function criaCanos() {
             })
         },
         temColisaoComOFlappyBird(par) {
-            const cabecaDoFlappy = globais.flappyBird.y;
+            const cabecaDoFlappy = globais.flappyBird.y ;
             const peDoFlappy = globais.flappyBird.y + globais.flappyBird.altura;
             
             if((globais.flappyBird.x + globais.flappyBird.largura) >= par.x) {
@@ -247,10 +247,11 @@ function criaPlacar() {
             contexto.fillText(`${placar.pontuacao}`, canvas.width - 10, 35);
         },
         atualiza(){
-            const intervaloDeFrames = 110;
+            const intervaloDeFrames = 105;
             const passouOIntervalo = frames % intervaloDeFrames === 0;
             if(passouOIntervalo){
             placar.pontuacao = placar.pontuacao + 1
+
             }
         },
     }
