@@ -53,12 +53,12 @@ function criaFlappyBird(){
         altura: 24,
         x: 10,
         y: 50,
-        pulo: 4.7,
+        pulo: 5,
         pula() {
             flappyBird.velocidade = - flappyBird.pulo
             som_pulo.play();
         },
-        gravidade: 0.25,
+        gravidade: 0.2,
         velocidade: 0,
         atualiza() {
             if(fazColisao(flappyBird, globais.chao)){
