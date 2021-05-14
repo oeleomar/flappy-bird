@@ -1,0 +1,11 @@
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-footer {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-style: italic;
+    font-size: 8pt;
+}

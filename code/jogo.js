@@ -17,33 +17,33 @@ const contexto = canvas.getContext('2d');
 
 // [Plano de Fundo]
 const planoDeFundo = {
-  spriteX: 390,
-  spriteY: 0,
-  largura: 275,
-  altura: 204,
-  x: 0,
-  y: canvas.height - 204,
-  desenha() {
-    contexto.fillStyle = '#70c5ce';
-    contexto.fillRect(0,0, canvas.width, canvas.height)
+    spriteX: 390,
+    spriteY: 0,
+    largura: 275,
+    altura: 204,
+    x: 0,
+    y: canvas.height - 204,
+    desenha() {
+        contexto.fillStyle = '#70c5ce';
+        contexto.fillRect(0,0, canvas.width, canvas.height)
 
-    contexto.drawImage(
-      sprites,
-      planoDeFundo.spriteX, planoDeFundo.spriteY,
-      planoDeFundo.largura, planoDeFundo.altura,
-      planoDeFundo.x, planoDeFundo.y,
-      planoDeFundo.largura, planoDeFundo.altura,
-    );
+        contexto.drawImage(
+        sprites,
+        planoDeFundo.spriteX, planoDeFundo.spriteY,
+        planoDeFundo.largura, planoDeFundo.altura,
+        planoDeFundo.x, planoDeFundo.y,
+        planoDeFundo.largura, planoDeFundo.altura,
+        );
 
-    contexto.drawImage(
-      sprites,
-      planoDeFundo.spriteX, planoDeFundo.spriteY,
-      planoDeFundo.largura, planoDeFundo.altura,
-      (planoDeFundo.x + planoDeFundo.largura), planoDeFundo.y,
-      planoDeFundo.largura, planoDeFundo.altura,
-    );
-  },
-};
+        contexto.drawImage(
+        sprites,
+        planoDeFundo.spriteX, planoDeFundo.spriteY,
+        planoDeFundo.largura, planoDeFundo.altura,
+        (planoDeFundo.x + planoDeFundo.largura), planoDeFundo.y,
+        planoDeFundo.largura, planoDeFundo.altura,
+        );
+    },
+}
 //FlappyBird
 function criaFlappyBird(){
     const flappyBird = {
@@ -403,17 +403,19 @@ function loop() {
     requestAnimationFrame(loop);
 }
 
-window.addEventListener('click', function(){
-    if (telaAtiva.click){
-        telaAtiva.click();
-    }
-})
 window.addEventListener('keydown', function(evento){
     if(evento.keyCode == 32){
         telaAtiva.click();
     }
 
 })
+
+//ADICIONAR CLICK
+/*window.addEventListener('click', function(){
+    if (telaAtiva.click){
+        telaAtiva.click();
+    }
+})*/
 
 mudaparatela(telas.inicio);
 loop();
