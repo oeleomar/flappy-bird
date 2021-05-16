@@ -1,6 +1,6 @@
 function returnTo(){
-    window.location.replace("/flappy-bird/flappy-bird/index2.html")
+    window.location.href = "https://oeleomar.github.io/card-main/"
 }
 function goFlappy(){
-    window.location.replace("/flappy-bird/flappy-bird/index2.html")
+    window.location.href = "/flappy-bird/flappy-bird/index2.html"
 }

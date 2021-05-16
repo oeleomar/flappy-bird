@@ -4,38 +4,51 @@ section.main-section {
     margin-right: auto;
     background-color: var(--color-second);
     padding: 20px;
-    width: 500px;
-    height: 500px;
+    width: 30rem;
+    height: 30rem;
     border-radius: 15px;
     box-shadow: 10px 10px 5px var(--color-black-first);
 }
 
+section.main-section h1{
+    text-align: center;
+    color: var(--color-first);
+    font-size: 1.5rem;
+    text-shadow: 4px 3px 0px var(--color-black-first);
+    margin-bottom: 20px;
+}
+
 section.main-section p {
-    font-size: 1rem;
-    
+    font-size: 0.8rem;
     text-align: center;
     padding: 15px;
-    color: var(--color-third);
+    color: var(--color-black-second);
 }
 
-section.main-section div.main-div {
+section.main-section div.main-div{
     display: flex;
-    align-items: flex-end;
     justify-content: center;
-    margin-top: 80px;    
+    align-items: center;
+}
+section.main-section div.main-div img{
+    width: 13rem;
+    height: 13rem;
+}
+section.main-section div.main-div div.divButton {
+    display: block;  
 }
 
-section.main-section div.main-div input.button{
+section.main-section div.main-div div.divButton input.button{
     font-family: inherit;
     height: 35px;
     width: 233px;
     margin: 15px;
     background-color: var(--color-first);
-    color: var(--color-third);
+    color: var(--color-black-second);
     cursor: pointer;
     box-shadow: 4px 4px 0px var(--color-black-first);
     transition: transform 200ms ease-in-out;
 }
-section.main-section div.main-div input.button:hover{
+section.main-section div.main-div  div.divButton input.button:hover{
     transform: scale(1.05);
 }

@@ -10,9 +10,11 @@
 }
 
 body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Press Start 2P', cursive;
     background-color: var(--color-black-second);
+    width: 100%;
+    height: 100vh;
 }
