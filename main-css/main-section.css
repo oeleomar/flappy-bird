@@ -4,8 +4,8 @@ section.main-section {
     margin-right: auto;
     background-color: var(--color-second);
     padding: 20px;
-    width: 30rem;
-    height: 30rem;
+    width: 27rem;
+    height: 27rem;
     border-radius: 15px;
     box-shadow: 10px 10px 5px var(--color-black-first);
 }
@@ -31,8 +31,8 @@ section.main-section div.main-div{
     align-items: center;
 }
 section.main-section div.main-div img{
-    width: 12rem;
-    height: 12rem;
+    width: 8rem;
+    height: 8rem;
 }
 section.main-section div.main-div div.divButton {
     display: block;  
