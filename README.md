@@ -1,7 +1,4 @@
-# flappy-bird
-Apenas um jogo para testar os conhecimentos em programação
+# main-site
 
 
-Acesse pelo Link: 
-
-https://oeleomar.github.io/flappy-bird/
+Acesse pelo link: https://oeleomar.github.io/main-site/

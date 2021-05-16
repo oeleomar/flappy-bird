@@ -1,30 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flappy Bird</title>
+    <title>Cards</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/body.css">
-    <link rel="stylesheet" href="./style/header.css">
-    <link rel='stylesheet' href="./style/section.css">
-    <link rel="stylesheet" href="./style/footer.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-title.css">
+    <link rel="stylesheet" href="css/main-section.css">
+    <link rel="stylesheet" href="css/main-cards.css">
 </head>
 <body>
-    <header>
-        <h1>FlappyBird</h1>
-    </header>
-    <section>
-        <canvas id="game-canvas" width="340" height="500"></canvas>
-        <script src="code/jogo.js"></script>
-    </section>
-    <footer>
-        <p class="p-footer">Por EleomarDorneles.</p> 
-    </footer>
+    <h1 class="main-title">Projetos</h1>
+    <main class="main-section">
+        <section class="main-cards">
+            <h3>Alura-Flix</h3>
+            <span>Desenvolvido para catalogar filmes através de imagens do IMBD</span>
+            <div class="button">
+                <a href="https://github.com/oeleomar/AluraFlix">
+                    <button onclick="acessar_codigo_aluraflix()">Ver Código</button>
+                </a>
+                <a href="https://oeleomar.github.io/AluraFlix/">
+                    <button onclick="acessar_aluraflix()">Acessar</button>
+                </a>
+            </div>    
+        </section>
+        <section class="main-cards">
+            <h3>Flappy-Bird</h3>
+            <span>Desenvolvido para aplicar conhecimentos em JavaScript</span>
+            <div class="button">
+                <a href="https://github.com/oeleomar/flappy-bird">    
+                    <button onclick="acessar_codigo_flappybird()">Ver Código</button>
+                </a>
+                <a href="https://oeleomar.github.io/flappy-bird/">
+                    <button onclick="acessar_flappybird()">Acessar</button>
+                </a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

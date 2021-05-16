@@ -1,0 +1,8 @@
+.main-title{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1.8rem;
+    color: var(--color-first);
+    text-shadow: 4px 4px 0px var(--color-black-first);
+}
