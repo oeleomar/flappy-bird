@@ -31,8 +31,8 @@ section.main-section div.main-div{
     align-items: center;
 }
 section.main-section div.main-div img{
-    width: 13rem;
-    height: 13rem;
+    width: 220px;
+    height: 220px;
 }
 section.main-section div.main-div div.divButton {
     display: block;  
@@ -41,7 +41,7 @@ section.main-section div.main-div div.divButton {
 section.main-section div.main-div div.divButton input.button{
     font-family: inherit;
     height: 35px;
-    width: 233px;
+    width: 230px;
     margin: 15px;
     background-color: var(--color-first);
     color: var(--color-black-second);
