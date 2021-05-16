@@ -1,0 +1,41 @@
+section.main-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-second);
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px var(--color-black-first);
+}
+
+section.main-section p {
+    font-size: 1rem;
+    
+    text-align: center;
+    padding: 15px;
+    color: var(--color-third);
+}
+
+section.main-section div.main-div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 80px;    
+}
+
+section.main-section div.main-div input.button{
+    font-family: inherit;
+    height: 35px;
+    width: 233px;
+    margin: 15px;
+    background-color: var(--color-first);
+    color: var(--color-third);
+    cursor: pointer;
+    box-shadow: 4px 4px 0px var(--color-black-first);
+    transition: transform 200ms ease-in-out;
+}
+section.main-section div.main-div input.button:hover{
+    transform: scale(1.05);
+}

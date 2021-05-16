@@ -1,30 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flappy Bird</title>
+    <title>FlappyBird</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/body.css">
-    <link rel="stylesheet" href="./style/header.css">
-    <link rel='stylesheet' href="./style/section.css">
-    <link rel="stylesheet" href="./style/footer.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="main-css/reset.css">
+    <link rel="stylesheet" href="main-css/main.css">
+    <link rel="stylesheet" href="main-css/main-header.css">
+    <link rel="stylesheet" href="main-css/main-section.css">
+    <script src="/flappy-bird/script.js"></script>
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <h1>FlappyBird</h1>
     </header>
-    <section>
-        <canvas id="game-canvas" width="340" height="500"></canvas>
-        <script src="code/jogo.js"></script>
-    </section>
-    <footer>
-        <p class="p-footer">Por EleomarDorneles.</p> 
-    </footer>
-</body>
+    <section class="main-section">
+        <p>Apenas um jogo criado com o intuido de desenvolver algumas habilidades de modulação de objetos em Javascript. Os comandos são básico,<p>"APENAS APERTE ESPAÇO PARA PULAR"</p><p>Caso deseje retornar ao menu de projetos utilize o botão abaixo.</p>
+        <p><Strong>Tenha uma Ótima Jogatina!!</Strong></p>
+        <div class="main-div">
+            <input type="button" class="button" onclick="goFlappy()" value="Ir para o Jogo">
+            <input type="button" class="button" onclick="returnTo()" value="Projetos">
+        </div>
+        </section>
+    </body>
 </html>
