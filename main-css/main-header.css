@@ -1,0 +1,13 @@
+.main-header{
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+header.main-header h1 {
+    text-shadow: 4px 2px 0px var(--color-black-first);
+    font-size: 1.5rem;
+    color: var(--color-first);
+}

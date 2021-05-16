@@ -31,8 +31,8 @@ section.main-section div.main-div{
     align-items: center;
 }
 section.main-section div.main-div img{
-    width: 220px;
-    height: 220px;
+    width: 12rem;
+    height: 12rem;
 }
 section.main-section div.main-div div.divButton {
     display: block;  
