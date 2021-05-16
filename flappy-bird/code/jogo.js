@@ -410,6 +410,12 @@ window.addEventListener('keydown', function(evento){
 
 })
 
+window.addEventListener('touchstart', function(){
+    if (telaAtiva.click){
+        telaAtiva.click();
+    }
+})
+
 //ADICIONAR CLICK
 /*window.addEventListener('click', function(){
     if (telaAtiva.click){
